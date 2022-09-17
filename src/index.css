@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: 'Bebas Neue', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #010101;
+  color: #FFFFFF;
+}
+
+code {
+  font-family: 'Bebas Neue', cursive;
+}

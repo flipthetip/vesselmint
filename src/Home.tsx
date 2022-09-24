@@ -707,7 +707,7 @@ const Home = (props: HomeProps) => {
                               />}
                             {wallet && isActive &&
                               <h3>vesseLs : {itemsRedeemed} / {itemsAvailable}</h3>}
-                              <h3>Note: Creator Royalty - 2.5%</h3>
+                              <h3>DEMO SITE!</h3>
                             {wallet && isActive && <BorderLinearProgress variant="determinate"
                                                                          value={100 - (itemsRemaining * 100 / itemsAvailable)}/>}
                             <br/>
@@ -775,11 +775,11 @@ const Home = (props: HomeProps) => {
                         </NFT>
                     </DesContainer>
                 </MintContainer>
-                <h3>Whitelist and TSC Holders - 30 minutes<br/>
+                {/* <h3>Whitelist and TSC Holders - 30 minutes<br/>
                 Public Mint of vesseL opens afterwards</h3>
 
                 
-                <br/>
+                <br/> */}
                 <div>
                 <SolExplorerLink href="https://discord.gg/qMUrjqAjUJ" target="_blank"><Image4
                 src="dc.png"
